@@ -13,7 +13,7 @@ body {
 }
 
 .page-header {
-    height: 300px;
+    height: 400px;
     color: #fff;
     background-color: #226666;
     padding-top: 4rem;
@@ -32,12 +32,21 @@ body {
     bottom: 0;
 }
 
+.page-header-content img {
+    margin-left: -8em;
+    margin-top: -7em;
+}
+
 .page-header h1 .smaller {
     font-size: .5em;
 }
 
 .page-header h1 {
     font-size: 4em;
+}
+
+.page-title {
+    float: right;
 }
 
 .panel-profile-img {
